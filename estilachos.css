@@ -1,0 +1,149 @@
+body{
+	margin: 0;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+    /*font-family: 'Raleway', sans-serif;*/
+}
+
+/*INICIA HEADER*/
+
+header {
+	background-image: url(assets/bg/bg-headear.png);
+	background-size: cover;
+	position: relative;
+	height: 560px;
+
+}
+
+header .abuelita{
+	position: absolute;
+	bottom: -20px;
+	left: -40px;
+}
+
+header .abuelita img{
+	max-width: 550px;
+}
+
+header .texto-header{
+	max-width: 420px;
+	border: solid red 10px;
+	position: absolute;
+	left: 63%;
+	bottom: 38%;
+	margin: 0;
+
+}
+
+header .texto-header h1{
+	font-size: 	2.3em;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+header .texto-header p{
+	font-size: 	1.2em;
+	text-align: center;
+	font-weight: 300;
+}
+
+/*TEMRINA HEADER*/
+
+/*INICIA COMO FUNCIONA*/
+
+.como-funciona {
+	background-image: url(assets/bg/bg-como-funciona.png);
+	background-size: cover;
+	position: relative;
+	height: 560px;
+}
+
+.como-funciona .texto-como-funciona{
+	max-width: 650px;
+	/*border: solid red 10px;*/
+	position: absolute;
+	left: 23%;
+	top: 5%;
+	margin: 0;
+	text-align: center;
+	
+}
+
+.como-funciona .texto-como-funciona h2{
+	font-size: 	2.3em;
+	font-family: 'Raleway', sans-serif;
+	text-align: right;
+}
+
+.como-funciona .texto-como-funciona p{
+	font-size: 	1.2em;
+	font-weight: 300;
+	padding: 10px;
+}
+
+.como-funciona .iconos-como-funciona{
+	/*border: solid red 10px;*/
+	position: absolute;
+	max-width: 670px;
+	bottom: 16%;
+	left: 10%;
+	display: inline-block;
+	font-size: .9em;
+}
+
+.como-funciona .iconos-como-funciona  ul li{
+	display: inline-block;
+	text-align: center;
+	/*border: solid red 1px;*/
+	max-width: 100px;
+	padding: 18px;
+}
+
+.como-funciona .texto-tu-patrimonio{
+	/*border: solid red 1px;*/
+	font-size: 	2.5em;
+	font-family: 'Raleway', sans-serif;
+	text-align: right;
+	color: black;
+	position: absolute;
+	bottom: -5%;
+	max-width: 500px;
+	right: 1%;
+}
+
+/*FIN COMO FUNCIONA*/
+
+/*INICIO DESARROLLO OAXACA*/
+
+.desarrollo-oaxaca{
+	background-image: url(assets/bg/bg-agaves.png);
+	background-size: cover;
+	position: relative;
+	height: 560px;
+}
+
+.desarrollo-oaxaca .logo{
+	text-align: right;
+	position: absolute;
+	top: 5%;
+	max-width: 407px;
+	left: 1%;
+}
+
+.desarrollo-oaxaca img{
+	max-width: 160px;
+}
+
+.desarrollo-oaxaca .titulo{
+	font-size: 	3em;
+	font-family: 'Raleway', sans-serif;
+	text-align: right;
+	position: absolute;
+	top: -5%;
+	max-width: 500px;
+	right: 1%;
+}
+
+
+/*FIN DESARROLLO OAXACA*/
+
