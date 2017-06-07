@@ -130,8 +130,8 @@ header .texto-header p{
 	left: 1%;
 }
 
-.desarrollo-oaxaca img{
-	max-width: 160px;
+.desarrollo-oaxaca .logo img{
+	max-width: 199px;
 }
 
 .desarrollo-oaxaca .titulo{
@@ -144,6 +144,76 @@ header .texto-header p{
 	right: 1%;
 }
 
+.desarrollo-oaxaca .fotos{
+	max-width: 1000px;
+	/*border: red solid 2px;*/
+	margin: 0 auto;
+	padding: 50px 0 0 0;
+	text-align: center;
+}
+
+.desarrollo-oaxaca .imagen1-agaves {
+	display: inline-block;
+	margin: 10px 15px 0 30px;
+}
+
+.desarrollo-oaxaca .imagen2-agaves {
+	display: inline-block;
+	margin: 10px 0 0 15px;
+}
+
+.desarrollo-oaxaca .imagen1-agaves img{
+	max-width: 390px;
+}
+
+.desarrollo-oaxaca .imagen2-agaves img{
+	max-width: 390px;
+
+}
+
+.desarrollo-oaxaca .iconos-agaves{
+	border: solid red 10px;
+	position: absolute;
+	max-width: 870px;
+	bottom: -3%;
+	left: 7%;
+	display: inline-block;
+	font-size: 1em;
+
+}
+
+.desarrollo-oaxaca .iconos-agaves ul li{
+	display: inline-block;
+	text-align: center;
+	/*border: solid red 1px;*/
+	max-width: 90px;
+	padding: 28px;
+}
+
+.desarrollo-oaxaca .precio{
+	font-family: 'Raleway', sans-serif;
+	text-align: right;
+	color: white;
+	position: absolute;
+	bottom: 15%;
+	max-width: 500px;
+	right: 1%;
+}
+
+.desarrollo-oaxaca .precio p{
+	font-size: 1.9em;
+	font-family: 'Raleway', sans-serif;
+	text-align: right;
+}
+
+.desarrollo-oaxaca .precio p span{
+	font-size: 1.1em;
+	font-family: 'Raleway', sans-serif;
+}
+.desarrollo-oaxaca .precio button{
+	font-size: 2.1em;
+	font-family: 'Raleway', sans-serif;
+}
 
 /*FIN DESARROLLO OAXACA*/
 
