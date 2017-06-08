@@ -1077,14 +1077,16 @@ header .texto-header{
 }
 
 .desarrollo-huatulco .imagen1-huatulco {
+	max-width: 100%;
 	display: inline-block;
 	margin: 10px 15px 0 30px;
 	
 }
 
 .desarrollo-huatulco .imagen2-huatulco {
+	max-width: 100%;
 	display: inline-block;
-	margin: 10px 0 0 15px;
+	margin: 20px 0 0 15px;
 	
 }
 
@@ -1118,6 +1120,11 @@ header .texto-header{
 	max-width: 90px;
 	padding: 28px;
 }
+
+.desarrollo-huatulco .iconos-huatulco ul li img{
+	max-width: 100%;
+}
+
 
 .desarrollo-huatulco .precio{
 	font-family: 'Raleway', sans-serif;
@@ -1521,6 +1528,10 @@ header .texto-header{
 	padding: 28px;
 }
 
+.desarrollo-huatulco .iconos-huatulco ul li img{
+	max-width: 100%;
+}
+
 .desarrollo-huatulco .precio{
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
@@ -1541,27 +1552,6 @@ header .texto-header{
 
 }
 
-.desarrollo-huatulco .precio p span{
-	font-size: 1.2em;
-	font-family: 'Roboto', sans-serif;
-}
-.desarrollo-huatulco .precio button{
-	background: #1798a6;
-	font-size: 2.1em;
-	font-family: 'Roboto', sans-serif;
-	color: white;
-	border: none;
- 	color: #f2f2f2;
- 	padding: 10px;
- 	border-radius: 9px;
- 	position: relative;
- 	box-sizing: border-box;
- 	transition: all 300ms ease;
-	box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.75);
-	cursor: pointer;
-	outline: none;
-
-}
 
 .desarrollo-huatulco .precio button:hover {
  /*background: rgba(0,0,0,0);*/
