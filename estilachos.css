@@ -12,7 +12,6 @@ header {
 	background-size: cover;
 	position: relative;
 	height: 570px;
-
 }
 
 header .abuelita{
@@ -441,6 +440,371 @@ header .texto-header p{
 
 /*INICIO RESPONSIVE*/
 
+@media screen and (max-width: 768px) {
+
+	header {
+	background-image: url(assets/bg-2/bg-header-2.png);
+	background-size: cover;
+	position: relative;
+	height: 570px;
+}
+	
+header .abuelita{
+	position: absolute;
+	bottom: -20px;
+	left: -40px;
+}
+
+header .abuelita img{
+	max-width: 440px;
+}
+
+
+header .texto-header{
+	width: 60%;
+	/*border: solid red 10px;*/
+	position: absolute;
+	left: 46%;
+	bottom: 19%;
+}
+
+/*INICIA COMO FUNCIONA 768px*/
+
+.como-funciona {
+	background-image: url(assets/bg-2/bg-como-funciona-2.png);
+	background-size: cover;
+	position: relative;
+	height: 570px;
+}
+
+.como-funciona .texto-como-funciona{
+	max-width: 650px;
+	/*border: solid red 10px;*/
+	position: absolute;
+	left: 9%;
+	top: 5%;
+	margin: 0;
+	text-align: center;
+	
+}
+
+.como-funciona .texto-como-funciona h2{
+	font-size: 	2.1em;
+	font-family: 'Raleway', sans-serif;
+	text-align: right;
+}
+
+.como-funciona .texto-como-funciona p{
+	font-size: 	1.3em;
+	font-weight: 300;
+	padding: 10px;
+}
+
+.como-funciona .iconos-como-funciona{
+	/*border: solid red 10px;*/
+	position: absolute;
+	max-width: 670px;
+	bottom: 19%;
+	left: -3%;
+	display: inline-block;
+	font-size: .9em;
+}
+
+.como-funciona .iconos-como-funciona  ul li{
+	display: inline-block;
+	text-align: center;
+	/*border: solid red 1px;*/
+	max-width: 100px;
+	padding: 18px;
+}
+
+.como-funciona .texto-tu-patrimonio{
+	/*border: solid red 1px;*/
+	font-size: 	2em;
+	font-family: 'Raleway', sans-serif;
+	text-align: right;
+	color: black;
+	position: absolute;
+	bottom: -5%;
+	max-width: 300px;
+	right: 1%;
+}
+/*FIN COMO FUNCIONA 768px*/
+
+/*INICIO DESARROLLO OAXACA 768px*/
+
+.desarrollo-oaxaca{
+	background-image: url(assets/bg-2/bg-agaves-2.png);
+	/*background-size: cover;
+	position: relative;
+	height: 570px;*/
+}
+
+.desarrollo-oaxaca .logo{
+	text-align: right;
+	position: absolute;
+	top: 2%;
+	left: 1%;
+	max-width: 250px;
+	
+}
+
+.desarrollo-oaxaca .logo img{
+	max-width: 129px;
+}
+
+/*.desarrollo-oaxaca .titulo{
+	font-size: 	3em;
+	font-family: 'Raleway', sans-serif;
+	text-align: right;
+	position: absolute;
+	top: -5%;
+	max-width: 500px;
+	right: 1%;
+}*/
+
+.desarrollo-oaxaca .fotos{
+	max-width: 700px;
+	/*border: red solid 2px;*/
+	margin: 0 auto;
+	padding: 100px 0 0 10px;
+	text-align: center;
+	display: block;
+}
+
+.desarrollo-oaxaca .imagen1-agaves {
+	display: inline-block;
+	max-width: 40%;
+	margin: 10px 15px 0 30px;
+	
+}
+
+.desarrollo-oaxaca .imagen2-agaves {
+	display: inline-block;
+	margin: 10px 0 0 15px;
+	max-width: 40%;
+	
+}
+
+.desarrollo-oaxaca .imagen1-agaves img{
+	max-width: 100%;
+	/*box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);*/
+}
+
+.desarrollo-oaxaca .imagen2-agaves img{
+	max-width: 100%;
+	/*box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);*/
+
+}
+
+.desarrollo-oaxaca .iconos-agaves{
+	/*border: solid red 10px;*/
+	position: absolute;
+	max-width: 410px;
+	bottom: 3%;
+	left: 2%;
+	display: inline-block;
+	font-size: .9em;
+
+}
+
+.desarrollo-oaxaca .iconos-agaves ul li{
+	display: inline-block;
+	text-align: center;
+	/*border: solid red 1px;*/
+	max-width: 90px;
+	padding: 10px;
+}
+
+.desarrollo-oaxaca .iconos-agaves ul li img{
+	
+	max-width: 30px;
+	
+}
+
+.desarrollo-oaxaca .precio{
+	font-family: 'Raleway', sans-serif;
+	text-align: right;
+	color: white;
+	position: absolute;
+	bottom: 8%;
+	max-width: 500px;
+	right: 2%;
+}
+
+.desarrollo-oaxaca .precio p{
+	font-size: 1.9em;
+	font-family: 'Roboto', sans-serif;
+	text-align: right;
+}
+
+.desarrollo-oaxaca .precio p span{
+	font-size: 1.2em;
+	font-family: 'Roboto', sans-serif;
+}
+.desarrollo-oaxaca .precio button{
+	background: #1798a6;
+	font-size: 2.1em;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	border: none;
+ 	color: #f2f2f2;
+ 	padding: 10px;
+ 	border-radius: 9px;
+ 	position: relative;
+ 	box-sizing: border-box;
+ 	transition: all 300ms ease;
+	box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.75);
+	cursor: pointer;
+	outline: none;
+
+}
+
+.desarrollo-oaxaca .precio button:hover {
+ /*background: rgba(0,0,0,0);*/
+ color: black;
+}
+
+.desarrollo-oaxaca .precio button:active {
+ box-shadow: inset 7px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+/*FIN DESARROLLO OAXACA 768*/
+
+/*INICIO DESARROLLO HUATULCO 768*/
+
+.desarrollo-huatulco{
+	background-image: url(assets/bg-2/bg-villas-2.png);
+}
+
+/*.desarrollo-huatulco .logo{
+	text-align: right;
+	position: absolute;
+	top: 0%;
+	max-width: 307px;
+	right: 0%;
+}*/
+
+.desarrollo-huatulco .logo img{
+	max-width: 120px;
+}
+
+/*.desarrollo-huatulco .titulo{
+	font-size: 	3em;
+	font-family: 'Raleway', sans-serif;
+	text-align: right;
+	position: absolute;
+	top: -5%;
+	max-width: 500px;
+	left: 1%;
+}*/
+
+.desarrollo-huatulco .fotos{
+	max-width: 700px;
+	/*border: red solid 2px;*/
+	margin: 0 auto;
+	padding: 100px 0 0 10px;
+	text-align: center;
+	display: block;
+}
+
+.desarrollo-huatulco .imagen1-huatulco {
+	display: inline-block;
+	max-width: 40%;
+	margin: 10px 15px 0 30px;
+	
+}
+
+.desarrollo-huatulco .imagen2-huatulco {
+	display: inline-block;
+	margin: 10px 0 0 15px;
+	max-width: 40%;
+	
+}
+
+.desarrollo-huatulco .imagen1-huatulco img{
+	max-width: 100%;
+	/*box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);*/
+}
+
+.desarrollo-huatulco .imagen2-huatulco img{
+	max-width: 90%;
+	/*box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);*/
+
+}
+
+.desarrollo-huatulco .iconos-huatulco{
+	/*border: solid red 10px;*/
+	position: absolute;
+	max-width: 410px;
+	bottom: 3%;
+	right: 2%;
+	display: inline-block;
+	font-size: .9em;
+
+}
+
+.desarrollo-huatulco .iconos-huatulco ul li{
+	display: inline-block;
+	text-align: center;
+	/*border: solid red 1px;*/
+	max-width: 90px;
+	padding: 10px;
+}
+
+.desarrollo-huatulco .iconos-huatulco ul li img{
+	max-width: 30px;
+}
+
+/*FIN DESARROLLO HUATULCO 768*/
+	
+/*INICIO CONTACTO*/
+
+.contacto{
+	background-image: url(assets/bg/bg-contacto.png);
+	background-size: cover;
+	position: relative;
+	height: 570px;
+}
+
+.contacto h2{
+	font-size: 	4em;
+	font-family: 'Raleway', sans-serif;
+	text-align: right;
+	position: absolute;
+	top: -5%;
+	max-width: 500px;
+	right: 5%;
+}
+
+.contacto  p{
+	font-size: 	1.3em;
+	font-weight: 300;
+	padding: 10px;
+	max-width: 600px;
+	position: absolute;
+	left: 45%;
+	bottom: 40%;
+	text-align: center;
+}
+
+
+.contacto .form-kick{
+	position: relative;
+	left: 5%;
+	/*border: solid 2px red;*/
+	max-width: 280px;
+	top: 20%;
+}
+
+/*FIN CONTACTO*/
+
+}
+
+/*FIN RESPONSIVE 768px*/
+
+
 @media screen and (max-width: 500px) {
 	header {
 	background-image: url(assets/bg-3/bg-header-3.png);
@@ -573,11 +937,13 @@ header .texto-header{
 }
 
 .desarrollo-oaxaca .imagen1-agaves {
+	max-width: 100%;
 	display: inline-block;
 	margin: 10px 15px 0 30px;
 }
 
 .desarrollo-oaxaca .imagen2-agaves {
+	max-width: 100%;
 	display: inline-block;
 	margin: 40px 0 0 15px;
 	
@@ -611,6 +977,10 @@ header .texto-header{
 	/*border: solid red 1px;*/
 	max-width: 90px;
 	padding: 28px;
+}
+
+.desarrollo-oaxaca .iconos-agaves ul li img{
+	max-width: 100%;
 }
 
 .desarrollo-oaxaca .precio{
@@ -967,11 +1337,13 @@ header .texto-header{
 }
 
 .desarrollo-oaxaca .imagen1-agaves {
+	max-width: 100%;
 	display: inline-block;
 	margin: 10px 15px 0 30px;
 }
 
 .desarrollo-oaxaca .imagen2-agaves {
+	max-width: 100%;
 	display: inline-block;
 	margin: 40px 0 0 15px;
 	
@@ -1014,6 +1386,10 @@ header .texto-header{
 	/*border: solid red 1px;*/
 	max-width: 280px;
 	padding: 7px 3px 10px 3px;
+}
+
+.desarrollo-oaxaca .iconos-agaves ul li img{
+	max-width: 100%;
 }
 
 .desarrollo-oaxaca .precio{
