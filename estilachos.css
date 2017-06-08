@@ -11,7 +11,7 @@ header {
 	background-image: url(assets/bg/bg-headear.png);
 	background-size: cover;
 	position: relative;
-	height: 560px;
+	height: 570px;
 
 }
 
@@ -27,7 +27,7 @@ header .abuelita img{
 
 header .texto-header{
 	max-width: 420px;
-	border: solid red 10px;
+	/*border: solid red 10px;*/
 	position: absolute;
 	left: 63%;
 	bottom: 38%;
@@ -42,7 +42,7 @@ header .texto-header h1{
 }
 
 header .texto-header p{
-	font-size: 	1.2em;
+	font-size: 	1.3em;
 	text-align: center;
 	font-weight: 300;
 }
@@ -55,7 +55,7 @@ header .texto-header p{
 	background-image: url(assets/bg/bg-como-funciona.png);
 	background-size: cover;
 	position: relative;
-	height: 560px;
+	height: 570px;
 }
 
 .como-funciona .texto-como-funciona{
@@ -76,7 +76,7 @@ header .texto-header p{
 }
 
 .como-funciona .texto-como-funciona p{
-	font-size: 	1.2em;
+	font-size: 	1.3em;
 	font-weight: 300;
 	padding: 10px;
 }
@@ -119,7 +119,7 @@ header .texto-header p{
 	background-image: url(assets/bg/bg-agaves.png);
 	background-size: cover;
 	position: relative;
-	height: 560px;
+	height: 570px;
 }
 
 .desarrollo-oaxaca .logo{
@@ -155,24 +155,28 @@ header .texto-header p{
 .desarrollo-oaxaca .imagen1-agaves {
 	display: inline-block;
 	margin: 10px 15px 0 30px;
+	
 }
 
 .desarrollo-oaxaca .imagen2-agaves {
 	display: inline-block;
 	margin: 10px 0 0 15px;
+	
 }
 
 .desarrollo-oaxaca .imagen1-agaves img{
 	max-width: 390px;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .desarrollo-oaxaca .imagen2-agaves img{
 	max-width: 390px;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
 }
 
 .desarrollo-oaxaca .iconos-agaves{
-	border: solid red 10px;
+	/*border: solid red 10px;*/
 	position: absolute;
 	max-width: 870px;
 	bottom: -3%;
@@ -195,25 +199,251 @@ header .texto-header p{
 	text-align: right;
 	color: white;
 	position: absolute;
-	bottom: 15%;
+	bottom: 5%;
 	max-width: 500px;
-	right: 1%;
+	right: 2%;
 }
 
 .desarrollo-oaxaca .precio p{
 	font-size: 1.9em;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-align: right;
 }
 
 .desarrollo-oaxaca .precio p span{
-	font-size: 1.1em;
-	font-family: 'Raleway', sans-serif;
+	font-size: 1.2em;
+	font-family: 'Roboto', sans-serif;
 }
 .desarrollo-oaxaca .precio button{
+	background: #1798a6;
 	font-size: 2.1em;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	border: none;
+ 	color: #f2f2f2;
+ 	padding: 10px;
+ 	border-radius: 9px;
+ 	position: relative;
+ 	box-sizing: border-box;
+ 	transition: all 300ms ease;
+	box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.75);
+	cursor: pointer;
+	outline: none;
+
 }
 
+.desarrollo-oaxaca .precio button:hover {
+ /*background: rgba(0,0,0,0);*/
+ color: black;
+}
+
+.desarrollo-oaxaca .precio button:active {
+ box-shadow: inset 7px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
 /*FIN DESARROLLO OAXACA*/
+
+/*INICIO DESARROLLO HUAUTLCO*/
+
+.desarrollo-huatulco{
+	background-image: url(assets/bg/bg-villas.png);
+	background-size: cover;
+	position: relative;
+	height: 570px;
+}
+
+.desarrollo-huatulco .logo{
+	text-align: right;
+	position: absolute;
+	top: 0%;
+	max-width: 407px;
+	right: 0%;
+}
+
+.desarrollo-huatulco .logo img{
+	max-width: 150px;
+}
+
+.desarrollo-huatulco .titulo{
+	font-size: 	3em;
+	font-family: 'Raleway', sans-serif;
+	text-align: right;
+	position: absolute;
+	top: -5%;
+	max-width: 500px;
+	left: 1%;
+}
+
+.desarrollo-huatulco .fotos{
+	max-width: 1000px;
+	/*border: red solid 2px;*/
+	margin: 0 auto;
+	padding: 50px 0 0 0;
+	text-align: center;
+}
+
+.desarrollo-huatulco .imagen1-huatulco {
+	display: inline-block;
+	margin: 10px 15px 0 30px;
+	
+}
+
+.desarrollo-huatulco .imagen2-huatulco {
+	display: inline-block;
+	margin: 10px 0 0 15px;
+	
+}
+
+.desarrollo-huatulco .imagen1-huatulco img{
+	max-width: 390px;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.desarrollo-huatulco .imagen2-huatulco img{
+	max-width: 390px;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.desarrollo-huatulco .iconos-huatulco{
+	/*border: solid red 10px;*/
+	position: absolute;
+	max-width: 870px;
+	bottom: -3%;
+	right: 18%;
+	display: inline-block;
+	font-size: 1em;
+
+}
+
+.desarrollo-huatulco .iconos-huatulco ul li{
+	display: inline-block;
+	text-align: center;
+	/*border: solid red 1px;*/
+	max-width: 90px;
+	padding: 28px;
+}
+
+.desarrollo-huatulco .precio{
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	color: white;
+	position: absolute;
+	bottom: 5%;
+	max-width: 500px;
+	left: 2%;
+}
+
+.desarrollo-huatulco .precio p{
+	font-size: 1.9em;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+}
+
+.desarrollo-huatulco .precio p span{
+	font-size: 1.2em;
+	font-family: 'Roboto', sans-serif;
+}
+.desarrollo-huatulco .precio button{
+	background: #1798a6;
+	font-size: 2.1em;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	border: none;
+ 	color: #f2f2f2;
+ 	padding: 10px;
+ 	border-radius: 9px;
+ 	position: relative;
+ 	box-sizing: border-box;
+ 	transition: all 300ms ease;
+	box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.75);
+	cursor: pointer;
+	outline: none;
+
+}
+
+.desarrollo-huatulco .precio button:hover {
+ /*background: rgba(0,0,0,0);*/
+ color: black;
+}
+
+.desarrollo-huatulco .precio button:active {
+ box-shadow: inset 7px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+/*FIN DESARROLLO HUATULCO*/
+
+/*INICIO CONTACTO*/
+
+.contacto{
+	background-image: url(assets/bg/bg-contacto.png);
+	background-size: cover;
+	position: relative;
+	height: 570px;
+}
+
+.contacto h2{
+	font-size: 	4em;
+	font-family: 'Raleway', sans-serif;
+	text-align: right;
+	position: absolute;
+	top: -5%;
+	max-width: 500px;
+	right: 1%;
+}
+
+.contacto  p{
+	font-size: 	1.3em;
+	font-weight: 300;
+	padding: 10px;
+	max-width: 600px;
+	position: absolute;
+	left: 50%;
+	bottom: 50%;
+	text-align: center;
+}
+
+.contacto  p span{
+	
+}
+
+.contacto .form-kick{
+	position: relative;
+	left: 10%;
+	/*border: solid 2px red;*/
+	max-width: 350px;
+	top: 20%;
+}
+
+.contacto .aviso-redes{
+	font-size: 2.2em;
+	float: right;
+	padding-right: 30px;
+	padding-top: 50px;
+}
+
+.contacto .aviso-redes ul{
+	list-style: none;
+}
+
+.contacto .aviso-redes ul li{
+	display: inline-block;
+	padding-right: 25px;
+}
+
+.contacto .aviso-redes ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
 
