@@ -771,7 +771,7 @@ header .texto-header{
 	background-image: url(assets/bg/bg-contacto.png);
 	background-size: cover;
 	position: relative;
-	height: 570px;
+	height: 770px;
 }
 
 .contacto h2{
@@ -1191,7 +1191,7 @@ header .texto-header{
 	background-image: url(assets/bg-3/bg-contacto-3.png);
 	background-size: cover;
 	position: relative;
-	height: 810px;
+	height: 940px;
 }
 
 .contacto h2{
@@ -1569,7 +1569,12 @@ header .texto-header{
 }
 
 /*FIN DESARROLLO HUATULCO 320*/
-
+.contacto{
+	background-image: url(assets/bg-3/bg-contacto-3.png);
+	background-size: cover;
+	position: relative;
+	height: 940px;
+}
 
 	}
 
