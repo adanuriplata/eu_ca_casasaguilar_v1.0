@@ -379,7 +379,7 @@ header .texto-header p{
 	background-image: url(assets/bg/bg-contacto.png);
 	background-size: cover;
 	position: relative;
-	height: 570px;
+	height: 670px;
 }
 
 .contacto h2{
@@ -412,7 +412,7 @@ header .texto-header p{
 	left: 10%;
 	/*border: solid 2px red;*/
 	max-width: 350px;
-	top: 20%;
+	top: 18%;
 }
 
 .contacto .aviso-redes{
@@ -1086,7 +1086,7 @@ header .texto-header{
 .desarrollo-huatulco .imagen2-huatulco {
 	max-width: 100%;
 	display: inline-block;
-	margin: 20px 0 0 15px;
+	margin: 10px 0 0 15px;
 	
 }
 
